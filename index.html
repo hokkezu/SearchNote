@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>検索機能付きメモ帳</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/style.css" media="all">
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+        <header class="header">
+            <h1>検索機能付きメモ帳</h1>
+        </header>
+
+        <main class="maincon">
+            <form>
+                <div class="content">
+                    <p><label class="list">項目の追加<br><input id="btnadditem"></label></p>
+                    <p><a id="additem" class="btn">追加</a></p>
+                    <p><label class="list">項目の削除<br><select id="item1"></select></label></p>
+                    <p><a id="deleteitem" class="btn">削除</a></p>
+                </div>
+            </form>
+            <form>
+                <div class="content">
+                    <p><label class="list">項目<br><select id="item2"></select></label></p>
+                    <p><label class="list">題名<br><input id="inputTitle" type="text"></label></p>
+                    <p><label class="list">詳細<br><textarea id="inputText"></textarea></label></p>
+                    <p><a id="add" class="btn">追加</a></p>
+                </div>
+            </form>
+            <form>
+                <div class="content">
+                    <p><label class="list">項目の検索<br><select id="item3"></select></label></p>
+                    <p><a id="search" class="btn">検索</a></p>
+                    <p><a id="allsearch" class="btn">メモすべてを表示</a></p>
+                </div>
+            </form>
+        </main>
+        <div id="searchlist"></div>
+
+        <footer class="footer">
+
+        </footer>
+
+    </div>
+
+
+    <script src="ks/main.js"></script>
+
+</body>
+
+</html>

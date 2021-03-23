@@ -1,0 +1,131 @@
+body {
+    background-color:rgb(255, 255, 255)
+}
+
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    margin: 100px auto 0 auto;
+}
+
+h1 {
+    color:rgb(80, 80, 80);
+    margin: auto;
+    width: 500px;
+    border-bottom: solid 4px rgb(255, 125, 4);
+}
+
+h2 {
+    color:rgb(80, 80, 80);
+}
+
+#item1, #item2, #item3 {
+    width: 158px;
+    height: 22px;
+} 
+
+#addItem, #item, #inputTitle, #inputText {
+    width: 150px;
+    font-size: 14px;
+}
+
+.list {
+    width: 150px;
+}
+
+p {
+    margin: 30px 0;
+    font-size: 1.3rem;
+}
+
+.btn {
+    padding: 3px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(255, 125, 4);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.maincon {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    display: table;
+    width: 30%;
+    height: 400px;
+    margin-top: 80px;
+    border: solid 1px black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.content {
+    margin: auto 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.searching {
+    background-color: white;
+    border: solid 1px black;
+    margin: 120px auto;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    border-radius: 20px;
+}
+
+#searchlist div {
+    background-color: rgb(238, 238, 238);
+    margin: 10px 100px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 15px;
+    position: relative;
+}
+
+.searching div a {
+    position: absolute;
+    right: 5px;
+    top: -2px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.searching div a:hover {
+    opacity: 0.2;
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    top: -60px;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    padding: 3px 15px;
+    color: white;
+    background-color: rgb(255, 125, 4);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+li:hover {
+    opacity: 0.6;
+}
